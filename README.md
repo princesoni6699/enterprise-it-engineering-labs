@@ -4,6 +4,12 @@ Practical Systems Administration, Automation, Endpoint Management & Security Lab
 
 An independent technical showcase by Prince Soni, Brisbane. Five browser simulations use fictional enterprise data to demonstrate investigations, administration and reporting. No live Microsoft or Splunk infrastructure is connected.
 
+## Live showcase
+
+[Open the live demo](https://princesoni6699.github.io/enterprise-it-engineering-labs/) · [Public source](https://github.com/princesoni6699/enterprise-it-engineering-labs) · [LinkedIn project packages](documentation/LINKEDIN-PACKAGES.md)
+
+Published 17 November 2026. The hub and all five hosted lab routes were verified with representative browser workflows. Changes operate on synthetic browser-local data.
+
 ## Run locally
 
 Node.js 22 or newer is sufficient. No package install is required.

@@ -1,19 +1,28 @@
-# Deployment preparation
+# Public deployment
 
-Not published. No remote repository has been created or modified.
+Published with the owner's explicit approval on 17 November 2026.
 
-1. Review the local release, QA evidence and documented limitations.
-2. Obtain Prince’s explicit approval to create a public repository and publish the site.
-3. Create one repository named enterprise-it-engineering-labs under the approved account. Do not use the portfolio repository.
-4. Run node --test and node build.mjs. Review dist for secrets and private material.
-5. Push reviewed source. Use a public repository and free standard GitHub-hosted runner only; no paid runner or billing configuration.
-6. Enable Pages with GitHub Actions as the source. Manually run the prepared Publish approved Pages release workflow after approval. It tests, builds, sets absolute social metadata and uploads dist. It does not run on push.
-7. Verify the hub and each folder URL, refresh, exports and asset requests on the actual host.
+- Repository: https://github.com/princesoni6699/enterprise-it-engineering-labs
+- Live hub: https://princesoni6699.github.io/enterprise-it-engineering-labs/
+- [Successful CI](https://github.com/princesoni6699/enterprise-it-engineering-labs/actions/runs/44059875759)
+- [Successful Pages release](https://github.com/princesoni6699/enterprise-it-engineering-labs/actions/runs/44060132518)
 
-Expected URL pattern, **not live or verified**:
+## Direct routes
 
-https://princesoni6699.github.io/enterprise-it-engineering-labs/
+- https://princesoni6699.github.io/enterprise-it-engineering-labs/01-active-directory-lab/
+- https://princesoni6699.github.io/enterprise-it-engineering-labs/02-powershell-automation/
+- https://princesoni6699.github.io/enterprise-it-engineering-labs/03-intune-endpoint-lab/
+- https://princesoni6699.github.io/enterprise-it-engineering-labs/04-splunk-security-lab/
+- https://princesoni6699.github.io/enterprise-it-engineering-labs/05-entra-identity-lab/
 
-Append each lab folder name and trailing slash for its direct link. No custom domain required. GitHub Free requires the repository to be public for Pages. Current official conditions: https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits (checked 16 November 2026).
+GitHub Pages uses the GitHub Actions source and HTTPS. Hosting and actual external spend: $0. No paid runner, trial or billing configuration was enabled. The personal portfolio was not modified.
 
-Public sharing approval is still required by the master instructions. Preparing these files does not grant it.
+## Verification
+
+The hosted hub and five routes loaded successfully. Verified representative actions: AD unlock and persistence after reload; PowerShell parameterised report; Intune compliance remediation; security filtering to EventCode 4740; Entra MFA registration followed by an allowed sign-in. Browser automation did not confirm completion of the public CSV download. Local export checks passed. No real tenant or production systems were operated.
+
+## Future releases
+
+Run the repository tests and build, then manually dispatch **Publish approved Pages release** from Actions. Pushes run CI but do not automatically redeploy Pages. Private interview notes and generated dist files remain excluded from source publication.
+
+Earlier QA/progress entries describe local pre-publication milestones. This document records the final public release status.

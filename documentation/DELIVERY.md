@@ -1,6 +1,6 @@
-# Local delivery report
+# Delivery report
 
-Prepared 16 November 2026 for Prince Soni, Brisbane. External expenditure: **$0**. No paid services, subscriptions, credit-card details or trials were used. No public repository or deployment exists yet.
+Published 17 November 2026 for Prince Soni, Brisbane. External expenditure: **$0**. No paid services, subscriptions, credit-card details or trials were used. The approved public repository and GitHub Pages demo are live.
 
 ## Delivered functionality
 
@@ -39,7 +39,7 @@ Native ES modules and browser APIs avoid a dependency installation or backend re
 
 ## Verification
 
-- 25 JavaScript unit/integration/static checks passed, including saved-session migration and scroll-linked progress geometry.
+- 27 JavaScript unit/integration/static checks passed, including saved-session migration and scroll-linked progress geometry.
 - Seven Pester syntax/safeguard checks passed across six scripts.
 - 264 route/theme/viewport checks passed across Edge and Chrome.
 - Extended browser workflows, persistence, reset, CSV/JSON downloads, mobile navigation and 19 local links per browser passed.
@@ -47,7 +47,7 @@ Native ES modules and browser APIs avoid a dependency installation or backend re
 - All six desktop captures and the mobile hub capture were visually reviewed.
 - Static production build completed successfully; private notes are excluded.
 
-See QA.md and the raw browser JSON reports for practical limits. No Lighthouse score, full WCAG certification, physical-device testing, live-domain/tenant execution or internet-hosted performance result is claimed.
+See QA.md and the raw browser JSON reports for practical limits. No Lighthouse score, full WCAG certification, physical-device testing, live-tenant execution or internet-hosted performance result is claimed.
 
 ## Known boundaries
 
@@ -61,9 +61,13 @@ See QA.md and the raw browser JSON reports for practical limits. No Lighthouse s
 
 ## Publishing and showcase
 
-Five LinkedIn descriptions, five skills each and actual 1200×627 PNG thumbnails are prepared in LINKEDIN-PACKAGES.md and assets/. Live and GitHub documentation URLs remain pending approval and actual publication. No URL is represented as live.
+Five LinkedIn descriptions, five skills each, 1200×627 PNG thumbnails and verified live/source links are in [LINKEDIN-PACKAGES.md](LINKEDIN-PACKAGES.md).
 
-The manual Pages workflow is prepared. Publication will create one separate repository named enterprise-it-engineering-labs; it will not alter prince-soni-portfolio. The master instruction requires explicit approval before making anything public. After approval, verify the hub plus five folder URLs and replace the pending showcase URLs with actual links.
+Public source: https://github.com/princesoni6699/enterprise-it-engineering-labs
+
+Live hub: https://princesoni6699.github.io/enterprise-it-engineering-labs/
+
+The owner explicitly approved public publication on 17 November 2026. The repository is separate from the portfolio. CI and the manual Pages deployment succeeded; see [deployment evidence](DEPLOYMENT.md). Representative workflows were exercised on all five hosted labs. The public CSV download completion could not be confirmed by browser automation; local download checks passed.
 
 ## Costs and existing portfolio
 
