@@ -1,0 +1,805 @@
+{
+  "browser": "msedge",
+  "viewports": [
+    {
+      "width": 320,
+      "route": "",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "route": "01-active-directory-lab/",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "route": "02-powershell-automation/",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "route": "03-intune-endpoint-lab/",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "route": "04-splunk-security-lab/",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "route": "05-entra-identity-lab/",
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "route": "",
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "route": "01-active-directory-lab/",
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "route": "02-powershell-automation/",
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "route": "03-intune-endpoint-lab/",
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "route": "04-splunk-security-lab/",
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "route": "05-entra-identity-lab/",
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "route": "",
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "route": "01-active-directory-lab/",
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "route": "02-powershell-automation/",
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "route": "03-intune-endpoint-lab/",
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "route": "04-splunk-security-lab/",
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "route": "05-entra-identity-lab/",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "01-active-directory-lab/",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "02-powershell-automation/",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "03-intune-endpoint-lab/",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "04-splunk-security-lab/",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "05-entra-identity-lab/",
+      "overflow": false
+    },
+    {
+      "width": 414,
+      "route": "",
+      "overflow": false
+    },
+    {
+      "width": 414,
+      "route": "01-active-directory-lab/",
+      "overflow": false
+    },
+    {
+      "width": 414,
+      "route": "02-powershell-automation/",
+      "overflow": false
+    },
+    {
+      "width": 414,
+      "route": "03-intune-endpoint-lab/",
+      "overflow": false
+    },
+    {
+      "width": 414,
+      "route": "04-splunk-security-lab/",
+      "overflow": false
+    },
+    {
+      "width": 414,
+      "route": "05-entra-identity-lab/",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "01-active-directory-lab/",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "02-powershell-automation/",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "03-intune-endpoint-lab/",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "04-splunk-security-lab/",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "05-entra-identity-lab/",
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "route": "",
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "route": "01-active-directory-lab/",
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "route": "02-powershell-automation/",
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "route": "03-intune-endpoint-lab/",
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "route": "04-splunk-security-lab/",
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "route": "05-entra-identity-lab/",
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "route": "",
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "route": "01-active-directory-lab/",
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "route": "02-powershell-automation/",
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "route": "03-intune-endpoint-lab/",
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "route": "04-splunk-security-lab/",
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "route": "05-entra-identity-lab/",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "01-active-directory-lab/",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "02-powershell-automation/",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "03-intune-endpoint-lab/",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "04-splunk-security-lab/",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "05-entra-identity-lab/",
+      "overflow": false
+    },
+    {
+      "width": 1920,
+      "route": "",
+      "overflow": false
+    },
+    {
+      "width": 1920,
+      "route": "01-active-directory-lab/",
+      "overflow": false
+    },
+    {
+      "width": 1920,
+      "route": "02-powershell-automation/",
+      "overflow": false
+    },
+    {
+      "width": 1920,
+      "route": "03-intune-endpoint-lab/",
+      "overflow": false
+    },
+    {
+      "width": 1920,
+      "route": "04-splunk-security-lab/",
+      "overflow": false
+    },
+    {
+      "width": 1920,
+      "route": "05-entra-identity-lab/",
+      "overflow": false
+    },
+    {
+      "width": 2560,
+      "route": "",
+      "overflow": false
+    },
+    {
+      "width": 2560,
+      "route": "01-active-directory-lab/",
+      "overflow": false
+    },
+    {
+      "width": 2560,
+      "route": "02-powershell-automation/",
+      "overflow": false
+    },
+    {
+      "width": 2560,
+      "route": "03-intune-endpoint-lab/",
+      "overflow": false
+    },
+    {
+      "width": 2560,
+      "route": "04-splunk-security-lab/",
+      "overflow": false
+    },
+    {
+      "width": 2560,
+      "route": "05-entra-identity-lab/",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "route": "",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "route": "01-active-directory-lab/",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "route": "02-powershell-automation/",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "route": "03-intune-endpoint-lab/",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "route": "04-splunk-security-lab/",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "route": "05-entra-identity-lab/",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "route": "",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "route": "01-active-directory-lab/",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "route": "02-powershell-automation/",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "route": "03-intune-endpoint-lab/",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "route": "04-splunk-security-lab/",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "route": "05-entra-identity-lab/",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "route": "",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "route": "01-active-directory-lab/",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "route": "02-powershell-automation/",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "route": "03-intune-endpoint-lab/",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "route": "04-splunk-security-lab/",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "route": "05-entra-identity-lab/",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "01-active-directory-lab/",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "02-powershell-automation/",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "03-intune-endpoint-lab/",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "04-splunk-security-lab/",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "05-entra-identity-lab/",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 414,
+      "route": "",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 414,
+      "route": "01-active-directory-lab/",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 414,
+      "route": "02-powershell-automation/",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 414,
+      "route": "03-intune-endpoint-lab/",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 414,
+      "route": "04-splunk-security-lab/",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 414,
+      "route": "05-entra-identity-lab/",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "01-active-directory-lab/",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "02-powershell-automation/",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "03-intune-endpoint-lab/",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "04-splunk-security-lab/",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "05-entra-identity-lab/",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "route": "",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "route": "01-active-directory-lab/",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "route": "02-powershell-automation/",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "route": "03-intune-endpoint-lab/",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "route": "04-splunk-security-lab/",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "route": "05-entra-identity-lab/",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "route": "",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "route": "01-active-directory-lab/",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "route": "02-powershell-automation/",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "route": "03-intune-endpoint-lab/",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "route": "04-splunk-security-lab/",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "route": "05-entra-identity-lab/",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "01-active-directory-lab/",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "02-powershell-automation/",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "03-intune-endpoint-lab/",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "04-splunk-security-lab/",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "05-entra-identity-lab/",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 1920,
+      "route": "",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 1920,
+      "route": "01-active-directory-lab/",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 1920,
+      "route": "02-powershell-automation/",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 1920,
+      "route": "03-intune-endpoint-lab/",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 1920,
+      "route": "04-splunk-security-lab/",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 1920,
+      "route": "05-entra-identity-lab/",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 2560,
+      "route": "",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 2560,
+      "route": "01-active-directory-lab/",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 2560,
+      "route": "02-powershell-automation/",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 2560,
+      "route": "03-intune-endpoint-lab/",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 2560,
+      "route": "04-splunk-security-lab/",
+      "theme": "light",
+      "overflow": false
+    },
+    {
+      "width": 2560,
+      "route": "05-entra-identity-lab/",
+      "theme": "light",
+      "overflow": false
+    }
+  ],
+  "semanticAccessibility": [
+    {
+      "route": "",
+      "unlabelledInputs": 0,
+      "emptyButtons": 0,
+      "h1": 1,
+      "lang": "en",
+      "loadMs": 1687.2999999970198
+    },
+    {
+      "route": "01-active-directory-lab/",
+      "unlabelledInputs": 0,
+      "emptyButtons": 0,
+      "h1": 1,
+      "lang": "en",
+      "loadMs": 985.4000000059605
+    },
+    {
+      "route": "02-powershell-automation/",
+      "unlabelledInputs": 0,
+      "emptyButtons": 0,
+      "h1": 1,
+      "lang": "en",
+      "loadMs": 1360
+    },
+    {
+      "route": "03-intune-endpoint-lab/",
+      "unlabelledInputs": 0,
+      "emptyButtons": 0,
+      "h1": 1,
+      "lang": "en",
+      "loadMs": 1375.2000000029802
+    },
+    {
+      "route": "04-splunk-security-lab/",
+      "unlabelledInputs": 0,
+      "emptyButtons": 0,
+      "h1": 1,
+      "lang": "en",
+      "loadMs": 1324.5
+    },
+    {
+      "route": "05-entra-identity-lab/",
+      "unlabelledInputs": 0,
+      "emptyButtons": 0,
+      "h1": 1,
+      "lang": "en",
+      "loadMs": 1366.5
+    }
+  ],
+  "localNavigationLoadMs": [
+    1687.2999999970198,
+    985.4000000059605,
+    1360,
+    1375.2000000029802,
+    1324.5,
+    1366.5
+  ],
+  "verifiedLocalLinks": 20,
+  "workflows": [
+    "directory unlock, persistence, audit, export and reset",
+    "endpoint remediation",
+    "MFA registration and retry",
+    "SPL filtering",
+    "PowerShell report simulation",
+    "bulk CSV processing",
+    "access review",
+    "incident notes and resolution",
+    "computer creation and membership",
+    "report parameters and JSON download",
+    "identity creation and justified role assignment",
+    "light mode and keyboard focus"
+  ],
+  "consoleErrors": []
+}

@@ -1,0 +1,8 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {threadProgress,createThreadPath,contentProgress,lengthAtY} from '../shared/scroll-thread.js';
+test('thread progress follows forward and reverse scroll with bounded endpoints',()=>{assert.equal(threadProgress(100,100,1100),0);assert.equal(threadProgress(600,100,1100),.5);assert.equal(threadProgress(350,100,1100),.25);assert.equal(threadProgress(-100,100,1100),0);assert.equal(threadProgress(2000,100,1100),1);});
+test('thread is a single continuous curved path with four rounded cubics per scene',()=>{const d=createThreadPath(90,60,[0,400,800,1200]);assert.equal((d.match(/M/g)||[]).length,1);assert.equal((d.match(/C/g)||[]).length,12);assert.doesNotMatch(d,/NaN|undefined|L/);assert.ok(d.endsWith('90 1200'));});
+test('content reveal is deterministic from scroll position and reverses without elapsed-time animation',()=>{const start=contentProgress(1200,0,1000,400),middle=contentProgress(1200,350,1000,400),end=contentProgress(1200,600,1000,400);assert.equal(start,0);assert.ok(middle>start&&middle<end);assert.equal(end,1);assert.equal(contentProgress(1200,350,1000,400),middle);assert.equal(contentProgress(1200,0,1000,400),start);});
+test('vertical geometry maps to travelled length rather than document percentage',()=>{const points=[{y:0,length:0},{y:100,length:200},{y:300,length:450}];assert.equal(lengthAtY(points,50),100);assert.equal(lengthAtY(points,200),325);assert.equal(lengthAtY(points,-20),0);assert.equal(lengthAtY(points,500),450);});
+test('original backwards-curling loop remains in the thread geometry',()=>{assert.ok(createThreadPath(90,60,[0,400]).includes('C 30 300, 150 300, 150 200'));});

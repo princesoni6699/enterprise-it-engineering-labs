@@ -1,0 +1,1 @@
+{"name":"enterprise-it-engineering-labs","version":"0.1.0","private":true,"type":"module","scripts":{"start":"node server.mjs","test":"node --test","build":"node build.mjs"}}

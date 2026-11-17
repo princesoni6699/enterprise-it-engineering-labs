@@ -1,0 +1,602 @@
+{
+  "browser": "msedge",
+  "responsiveScrollChecks": [
+    {
+      "width": 320,
+      "samples": [
+        {
+          "progress": 0,
+          "offset": 4346.4,
+          "revealed": 0,
+          "overflow": false,
+          "anchorError": 920.046875
+        },
+        {
+          "progress": 0,
+          "offset": 4346.4,
+          "revealed": 1,
+          "overflow": false,
+          "anchorError": 56.046875
+        },
+        {
+          "progress": 0.3184,
+          "offset": 2962.59,
+          "revealed": 2,
+          "overflow": false,
+          "anchorError": 0.0031249999999545253
+        },
+        {
+          "progress": 0.6585,
+          "offset": 1484.22,
+          "revealed": 4,
+          "overflow": false,
+          "anchorError": 0.0031249999999545253
+        },
+        {
+          "progress": 1,
+          "offset": 0,
+          "revealed": 5,
+          "overflow": false,
+          "anchorError": 0.003125000000181899
+        },
+        {
+          "progress": 0.3184,
+          "offset": 2962.59,
+          "revealed": 2,
+          "overflow": false,
+          "anchorError": 0.0031249999999545253
+        },
+        {
+          "progress": 0,
+          "offset": 4346.4,
+          "revealed": 0,
+          "overflow": false,
+          "anchorError": 920.046875
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "samples": [
+        {
+          "progress": 0,
+          "offset": 4310.24,
+          "revealed": 0,
+          "overflow": false,
+          "anchorError": 894.15625
+        },
+        {
+          "progress": 0,
+          "offset": 4310.24,
+          "revealed": 1,
+          "overflow": false,
+          "anchorError": 41.15625
+        },
+        {
+          "progress": 0.3218,
+          "offset": 2923.14,
+          "revealed": 2,
+          "overflow": false,
+          "anchorError": 0.0037499999999681677
+        },
+        {
+          "progress": 0.6605,
+          "offset": 1463.29,
+          "revealed": 4,
+          "overflow": false,
+          "anchorError": 0.0037500000000818545
+        },
+        {
+          "progress": 1,
+          "offset": 0,
+          "revealed": 5,
+          "overflow": false,
+          "anchorError": 0.003749999999854481
+        },
+        {
+          "progress": 0.3218,
+          "offset": 2923.14,
+          "revealed": 2,
+          "overflow": false,
+          "anchorError": 0.0037499999999681677
+        },
+        {
+          "progress": 0,
+          "offset": 4310.24,
+          "revealed": 0,
+          "overflow": false,
+          "anchorError": 894.15625
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "samples": [
+        {
+          "progress": 0,
+          "offset": 4217.49,
+          "revealed": 0,
+          "overflow": false,
+          "anchorError": 876.71875
+        },
+        {
+          "progress": 0,
+          "offset": 4217.49,
+          "revealed": 1,
+          "overflow": false,
+          "anchorError": 41.71875
+        },
+        {
+          "progress": 0.3214,
+          "offset": 2862.1,
+          "revealed": 2,
+          "overflow": false,
+          "anchorError": 0.0012500000000272848
+        },
+        {
+          "progress": 0.6602,
+          "offset": 1432.96,
+          "revealed": 4,
+          "overflow": false,
+          "anchorError": 0.0012500000000272848
+        },
+        {
+          "progress": 1,
+          "offset": 0,
+          "revealed": 5,
+          "overflow": false,
+          "anchorError": 0.0012499999997999112
+        },
+        {
+          "progress": 0.3214,
+          "offset": 2862.1,
+          "revealed": 2,
+          "overflow": false,
+          "anchorError": 0.0012500000000272848
+        },
+        {
+          "progress": 0,
+          "offset": 4217.49,
+          "revealed": 0,
+          "overflow": false,
+          "anchorError": 876.71875
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "samples": [
+        {
+          "progress": 0,
+          "offset": 4158.37,
+          "revealed": 0,
+          "overflow": false,
+          "anchorError": 879.6875
+        },
+        {
+          "progress": 0,
+          "offset": 4158.37,
+          "revealed": 1,
+          "overflow": false,
+          "anchorError": 52.6875
+        },
+        {
+          "progress": 0.3182,
+          "offset": 2835.15,
+          "revealed": 3,
+          "overflow": false,
+          "anchorError": 0.0025000000000545697
+        },
+        {
+          "progress": 0.6586,
+          "offset": 1419.64,
+          "revealed": 4,
+          "overflow": false,
+          "anchorError": 0.0025000000000545697
+        },
+        {
+          "progress": 1,
+          "offset": 0,
+          "revealed": 5,
+          "overflow": false,
+          "anchorError": 0.0025000000000545697
+        },
+        {
+          "progress": 0.3182,
+          "offset": 2835.15,
+          "revealed": 3,
+          "overflow": false,
+          "anchorError": 0.0025000000000545697
+        },
+        {
+          "progress": 0,
+          "offset": 4158.37,
+          "revealed": 0,
+          "overflow": false,
+          "anchorError": 879.6875
+        }
+      ]
+    },
+    {
+      "width": 414,
+      "samples": [
+        {
+          "progress": 0,
+          "offset": 4265.44,
+          "revealed": 0,
+          "overflow": false,
+          "anchorError": 884.5
+        },
+        {
+          "progress": 0,
+          "offset": 4265.44,
+          "revealed": 1,
+          "overflow": false,
+          "anchorError": 40.5
+        },
+        {
+          "progress": 0.3219,
+          "offset": 2892.49,
+          "revealed": 3,
+          "overflow": false,
+          "anchorError": 0
+        },
+        {
+          "progress": 0.6605,
+          "offset": 1448.15,
+          "revealed": 4,
+          "overflow": false,
+          "anchorError": 0
+        },
+        {
+          "progress": 1,
+          "offset": 0,
+          "revealed": 5,
+          "overflow": false,
+          "anchorError": 0
+        },
+        {
+          "progress": 0.3219,
+          "offset": 2892.49,
+          "revealed": 3,
+          "overflow": false,
+          "anchorError": 0
+        },
+        {
+          "progress": 0,
+          "offset": 4265.44,
+          "revealed": 0,
+          "overflow": false,
+          "anchorError": 884.5
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "samples": [
+        {
+          "progress": 0,
+          "offset": 5801.79,
+          "revealed": 0,
+          "overflow": false,
+          "anchorError": 888.359375
+        },
+        {
+          "progress": 0.0538,
+          "offset": 5489.83,
+          "revealed": 1,
+          "overflow": false,
+          "anchorError": 0.0006250000000136424
+        },
+        {
+          "progress": 0.3691,
+          "offset": 3660.4,
+          "revealed": 3,
+          "overflow": false,
+          "anchorError": 0.0006249999998999556
+        },
+        {
+          "progress": 0.6841,
+          "offset": 1832.59,
+          "revealed": 4,
+          "overflow": false,
+          "anchorError": 0.0006250000001273293
+        },
+        {
+          "progress": 1,
+          "offset": 0,
+          "revealed": 5,
+          "overflow": false,
+          "anchorError": 0.0006250000001273293
+        },
+        {
+          "progress": 0.3691,
+          "offset": 3660.4,
+          "revealed": 3,
+          "overflow": false,
+          "anchorError": 0.0006249999998999556
+        },
+        {
+          "progress": 0,
+          "offset": 5801.79,
+          "revealed": 0,
+          "overflow": false,
+          "anchorError": 888.359375
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "samples": [
+        {
+          "progress": 0,
+          "offset": 5273.3,
+          "revealed": 0,
+          "overflow": false,
+          "anchorError": 362.984375
+        },
+        {
+          "progress": 0.1577,
+          "offset": 4441.93,
+          "revealed": 2,
+          "overflow": false,
+          "anchorError": 0.00437499999998181
+        },
+        {
+          "progress": 0.4361,
+          "offset": 2973.65,
+          "revealed": 3,
+          "overflow": false,
+          "anchorError": 0.00437499999998181
+        },
+        {
+          "progress": 0.715,
+          "offset": 1503.04,
+          "revealed": 4,
+          "overflow": false,
+          "anchorError": 0.00437499999998181
+        },
+        {
+          "progress": 1,
+          "offset": 0,
+          "revealed": 5,
+          "overflow": false,
+          "anchorError": 0.00437499999998181
+        },
+        {
+          "progress": 0.4361,
+          "offset": 2973.65,
+          "revealed": 3,
+          "overflow": false,
+          "anchorError": 0.00437499999998181
+        },
+        {
+          "progress": 0,
+          "offset": 5273.3,
+          "revealed": 0,
+          "overflow": false,
+          "anchorError": 362.984375
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "samples": [
+        {
+          "progress": 0,
+          "offset": 6106.56,
+          "revealed": 0,
+          "overflow": false,
+          "anchorError": 362.984375
+        },
+        {
+          "progress": 0.1677,
+          "offset": 5082.31,
+          "revealed": 2,
+          "overflow": false,
+          "anchorError": 0.00437499999998181
+        },
+        {
+          "progress": 0.4423,
+          "offset": 3405.51,
+          "revealed": 3,
+          "overflow": false,
+          "anchorError": 0.00437499999998181
+        },
+        {
+          "progress": 0.7168,
+          "offset": 1729.09,
+          "revealed": 4,
+          "overflow": false,
+          "anchorError": 0.00437499999998181
+        },
+        {
+          "progress": 1,
+          "offset": 0,
+          "revealed": 5,
+          "overflow": false,
+          "anchorError": 0.00437499999998181
+        },
+        {
+          "progress": 0.4423,
+          "offset": 3405.51,
+          "revealed": 3,
+          "overflow": false,
+          "anchorError": 0.00437499999998181
+        },
+        {
+          "progress": 0,
+          "offset": 6106.56,
+          "revealed": 0,
+          "overflow": false,
+          "anchorError": 362.984375
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "samples": [
+        {
+          "progress": 0,
+          "offset": 3931.32,
+          "revealed": 0,
+          "overflow": false,
+          "anchorError": 402.921875
+        },
+        {
+          "progress": 0.097,
+          "offset": 3550.12,
+          "revealed": 2,
+          "overflow": false,
+          "anchorError": 0.0018750000000409273
+        },
+        {
+          "progress": 0.3885,
+          "offset": 2403.92,
+          "revealed": 3,
+          "overflow": false,
+          "anchorError": 0.0018750000000409273
+        },
+        {
+          "progress": 0.6808,
+          "offset": 1254.8,
+          "revealed": 4,
+          "overflow": false,
+          "anchorError": 0.0018749999999272404
+        },
+        {
+          "progress": 1,
+          "offset": 0,
+          "revealed": 5,
+          "overflow": false,
+          "anchorError": 0.0018749999999272404
+        },
+        {
+          "progress": 0.3885,
+          "offset": 2403.92,
+          "revealed": 3,
+          "overflow": false,
+          "anchorError": 0.0018750000000409273
+        },
+        {
+          "progress": 0,
+          "offset": 3931.32,
+          "revealed": 0,
+          "overflow": false,
+          "anchorError": 402.921875
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "samples": [
+        {
+          "progress": 0,
+          "offset": 3788.53,
+          "revealed": 0,
+          "overflow": false,
+          "anchorError": 497.484375
+        },
+        {
+          "progress": 0.0535,
+          "offset": 3585.77,
+          "revealed": 1,
+          "overflow": false,
+          "anchorError": 0.00437499999998181
+        },
+        {
+          "progress": 0.3592,
+          "offset": 2427.56,
+          "revealed": 3,
+          "overflow": false,
+          "anchorError": 0.00437499999998181
+        },
+        {
+          "progress": 0.6637,
+          "offset": 1274.14,
+          "revealed": 4,
+          "overflow": false,
+          "anchorError": 0.00437499999998181
+        },
+        {
+          "progress": 1,
+          "offset": 0,
+          "revealed": 5,
+          "overflow": false,
+          "anchorError": 0.00437499999998181
+        },
+        {
+          "progress": 0.3592,
+          "offset": 2427.56,
+          "revealed": 3,
+          "overflow": false,
+          "anchorError": 0.00437499999998181
+        },
+        {
+          "progress": 0,
+          "offset": 3788.53,
+          "revealed": 0,
+          "overflow": false,
+          "anchorError": 497.484375
+        }
+      ]
+    },
+    {
+      "width": 2560,
+      "samples": [
+        {
+          "progress": 0,
+          "offset": 4410.9,
+          "revealed": 0,
+          "overflow": false,
+          "anchorError": 497.484375
+        },
+        {
+          "progress": 0.0838,
+          "offset": 4041.21,
+          "revealed": 1,
+          "overflow": false,
+          "anchorError": 0.00437499999998181
+        },
+        {
+          "progress": 0.3822,
+          "offset": 2725.01,
+          "revealed": 3,
+          "overflow": false,
+          "anchorError": 0.00437499999998181
+        },
+        {
+          "progress": 0.6787,
+          "offset": 1417.18,
+          "revealed": 4,
+          "overflow": false,
+          "anchorError": 0.00437499999998181
+        },
+        {
+          "progress": 1,
+          "offset": 0,
+          "revealed": 5,
+          "overflow": false,
+          "anchorError": 0.00437499999998181
+        },
+        {
+          "progress": 0.3822,
+          "offset": 2725.01,
+          "revealed": 3,
+          "overflow": false,
+          "anchorError": 0.00437499999998181
+        },
+        {
+          "progress": 0,
+          "offset": 4410.9,
+          "revealed": 0,
+          "overflow": false,
+          "anchorError": 497.484375
+        }
+      ]
+    }
+  ],
+  "labRevealRoutes": 5,
+  "reducedMotion": true,
+  "consoleErrors": []
+}

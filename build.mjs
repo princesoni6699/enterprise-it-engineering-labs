@@ -1,0 +1,7 @@
+import {mkdir,cp,readFile,writeFile} from 'node:fs/promises';
+import {labs} from './shared/engine.js';
+await mkdir('dist',{recursive:true});
+for(const p of ['index.html','shared','assets','documentation','01-active-directory-lab','02-powershell-automation','03-intune-endpoint-lab','04-splunk-security-lab','05-entra-identity-lab']) await cp(p,'dist/'+p,{recursive:true});
+await writeFile('dist/.nojekyll','');
+if(process.env.LABS_PUBLIC_URL){const base=new URL(process.env.LABS_PUBLIC_URL);if(base.protocol!=='https:'||base.search||base.hash||!base.pathname.endsWith('/'))throw Error('LABS_PUBLIC_URL must be an HTTPS base URL ending in /');for(const lab of [null,...labs]){const file='dist/'+(lab?lab.id+'/':'')+'index.html';let html=await readFile(file,'utf8');const title=lab?lab.name:'Enterprise IT Engineering Labs',description=lab?lab.description:'Practical Systems Administration, Automation, Endpoint Management & Security Labs',image=new URL('assets/'+(lab||labs[0]).id+'.png',base).href,canonical=new URL(lab?lab.id+'/':'',base).href;html=html.replace(/<meta property="og:[^"]+" content="[^"]*">/g,'');html=html.replace('</head>',`<link rel="canonical" href="${canonical}"><meta property="og:title" content="${title.replaceAll('&','&amp;')}"><meta property="og:description" content="${description}"><meta property="og:type" content="website"><meta property="og:url" content="${canonical}"><meta property="og:image" content="${image}"></head>`);await writeFile(file,html);}}
+console.log('Static deployment built in dist/');

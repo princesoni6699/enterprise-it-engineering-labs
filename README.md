@@ -35,4 +35,3 @@ GitHub Pages provides the static hosting. GitHub Free supports Pages on public r
 ## Security and attribution
 
 All identities, devices and events are synthetic. Documentation IP ranges and example domains only. Do not enter confidential information in notes. Browser state is not a production database. Original code and SVG diagrams use self-hosted Manrope and Space Grotesk fonts under the included SIL Open Font Licences, with system fallbacks. No external font or CDN requests are made. Microsoft and Splunk names remain their owners’ trademarks; no affiliation is implied.
-
